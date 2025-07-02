@@ -1,0 +1,22 @@
+.container {
+}
+.best__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+    @include mobile {
+        margin-bottom: 8px;
+    }
+}
+
+.best__link {
+    @include mobile {
+        display: none;
+    }
+}
+
+.best__cards {
+
+}
